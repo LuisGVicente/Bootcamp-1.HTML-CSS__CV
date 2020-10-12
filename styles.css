@@ -1,0 +1,138 @@
+.header {
+    width: 100%;
+    display: flex;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+  
+.my-photo {
+    width: 40%;
+}
+  
+.my-photo img {
+    width: 100%;
+}
+  
+.header-personal {
+    width: 60%;
+    margin: 20px;
+    line-height: 2em;
+    border: 20px solid;
+    border-color: rgb(60, 35, 35) white rgb(60, 35, 35) rgb(30, 15, 15); 
+    padding: 0 30px;  
+    background-image: linear-gradient(to right, rgb(200, 231, 231) 30%, rgb(220, 251, 251) 90%, white );
+}
+
+.header-skills {
+    width: 60%;
+    margin: 20px;
+    line-height: 2em;
+    display: none;
+    border: 20px solid;
+    border-color: rgb(60, 35, 35) rgb(30, 15, 15) rgb(60, 35, 35) white;
+    padding: 0 30px;  
+    background-image: linear-gradient(to left, rgb(200, 231, 231) 30%, rgb(220, 251, 251) 90%, white);
+    
+}
+
+.header-button{
+  text-align: center;
+}
+
+
+td {
+  font-size: 1.5rem;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.align-right{
+  text-align: right;
+  font-weight: bold;
+}
+
+.table{
+  table-layout: auto; 
+  width: 100%;
+  margin-top: 25px;
+}
+  
+section {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black
+}
+  
+.section-header {
+    cursor: pointer;
+}
+  
+.experience,
+.studies,
+.inactive {
+    display: none;
+}
+  
+.active {
+    display: block;
+    /* background-color: azure; */
+    /* padding: 10px; */
+}
+
+.header-content-name{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: -.2em;
+}
+
+.header-content-description {
+  padding-left: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section-experience{
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none; 
+  padding: 0; 
+  margin-left: 100px; 
+}
+  
+li::before { 
+  content: "\2013"; 
+  padding-right: 8px; 
+}
+
+.foot-bground{
+    background-color: rgb(200, 231, 231);
+    font-size: .8em;
+    padding: 10px 10px 10px 120px;
+    margin-top: 40px;
+    
+    color: rgb(184, 179, 179);
+}
+
+
+.img-git {
+  width: 4%;
+}
+
+.img-linkedin{
+  width: 6.5%;
+}
+
+.bground-experience{
+  background: url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/undraw_statistic_chart_38b6.svg") 100% 45% / 50% no-repeat;  ;
+}
+
+.bground-studies{
+  background: url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/undraw_exams_g4ow.svg") 98% 60% / 50% no-repeat;  ;
+}
