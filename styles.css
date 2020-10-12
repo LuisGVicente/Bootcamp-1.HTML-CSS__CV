@@ -1,6 +1,10 @@
+*,*:before,*:after{
+  box-sizing: border-box;
+}
 .header {
     width: 100%;
     display: flex;
+    background-image: radial-gradient(circle at 19.7% 50%, #a0a2a1 7.5%, rgb(200, 231, 231) 15%, white 22.5%);
 }
 
 body{
@@ -9,12 +13,22 @@ body{
   
 .my-photo {
     width: 40%;
+    
+    
+    background-image: url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/assets/2016.jpg"), url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/assets/black-r2.jpg");
+    background-size: 30% auto, 32%;
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
   
-.my-photo img {
-    width: 100%;
-}
-  
+/* .my-photo img {
+    width: 30%;
+    height: auto;
+    position: relative;
+    border: 1px solid black;
+
+} */
+
 .header-personal {
     width: 60%;
     margin: 20px;
@@ -39,11 +53,42 @@ body{
 
 .header-button{
   text-align: center;
+  text-decoration-color: rgb(60, 35, 35);
+  background-color: rgb(170, 195, 170);
+  border: 3px solid  rgb(60, 35, 35);
+  border-radius: 15%;
+  cursor: pointer;
 }
 
+.header-button:hover{
+  background-color: rgb(200, 231, 231);
+  font-style: italic;
+}
+
+.check-button {
+  background-color: rgb(200, 231, 231);
+  border: 1px solid;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.check-button:hover{
+  background-color: rgb(180, 211, 211)
+}
+
+.hide-button {
+  background-color: rgb(170, 195, 170);
+  border: 1px solid;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.hide-button:hover {
+  background-color: rgb(150, 175, 150);
+}
 
 td {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 h2 {
@@ -60,12 +105,13 @@ h2 {
   table-layout: auto; 
   width: 100%;
   margin-top: 25px;
+  margin-bottom: 50px;
 }
   
 section {
     margin: 10px;
     padding: 20px;
-    border: 1px solid black
+    border: 1px solid rgb(30, 15, 15)
 }
   
 .section-header {
@@ -111,6 +157,15 @@ li::before {
   padding-right: 8px; 
 }
 
+.black-link{
+  color: blue;
+  text-decoration: none;
+}
+
+.black-link:hover{
+  text-decoration: underline blue;
+}
+
 .foot-bground{
     background-color: rgb(200, 231, 231);
     font-size: .8em;
@@ -129,10 +184,15 @@ li::before {
   width: 6.5%;
 }
 
+.img-pdf{
+  width: 3.6%
+}
+
 .bground-experience{
-  background: url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/undraw_statistic_chart_38b6.svg") 100% 45% / 50% no-repeat;  ;
+  background: url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/assets/undraw_statistic_chart_38b6.svg") 100% 45% / 50% no-repeat;  ;
 }
 
 .bground-studies{
-  background: url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/undraw_exams_g4ow.svg") 98% 60% / 50% no-repeat;  ;
+  background: url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/assets/undraw_exams_g4ow.svg") 98% 60% / 50% no-repeat;  
 }
+
