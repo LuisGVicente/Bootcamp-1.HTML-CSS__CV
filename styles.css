@@ -15,7 +15,7 @@ body{
     width: 40%;
     
     
-    background-image: url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/assets/2016.jpg"), url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/assets/black-r2.jpg");
+    background-image: url("https://drive.google.com/file/d/0B_TW8_MVlscKUDlBVGMybXI5T0k/view?usp=sharing"), url("file:///C:/Users/luisgvicente/Desktop/Prework/Proyecto/assets/black-r2.jpg");
     background-size: 30% auto, 32%;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -199,3 +199,4 @@ li::before {
 .print-name {
   height: 50%;
 }
+
